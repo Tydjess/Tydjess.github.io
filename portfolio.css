@@ -1,0 +1,44 @@
+#Tableau {
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(350px, auto);
+  grid-gap: 50px 30px;
+  max-width: 1000px;
+}
+
+.one {
+  border: solid 1px;
+  grid-column: 1 / span 3;
+}
+.two {
+  border: solid 1px;
+  grid-column: 4 / span 3;
+}
+.three {
+  border: solid 1px;
+  grid-column: 1 / 3;
+}
+.four {
+  border: solid 1px;
+  grid-column: 3 / 5;
+}
+.five {
+  border: solid 1px;
+  grid-column: 5/ 7;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#Titre {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
